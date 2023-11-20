@@ -1,25 +1,8 @@
 let recyclinTasks = { tasks: [] }
 
-const toDoListPage = document.querySelector('#to_do-list_page')
-const recyclingBinPage = document.querySelector('#recycling_bin_page')
 const menuContainer = document.querySelector('.menu')
 const menuButton = document.querySelector('.menu-button')
 const listRecyclingContainer = document.querySelector('.list-recycling')
-
-
-toDoListPage.addEventListener('click', showToDoList)
-function showToDoList() {
-    const recyclingUrl = 'https://rfiftr.github.io/ToDoList.byES/'
-    window.location.href = recyclingUrl
-}
-
-//מאזין למעבר לרשימת משימות
-recyclingBinPage.addEventListener('clicl', showRecyclingBin)
-function showRecyclingBin() {
-    const todolistUrl = 'https://rfiftr.github.io/ToDoList.byES/Recycling'
-    window.location,href = todolistUrl
-}
-
 
 
 
